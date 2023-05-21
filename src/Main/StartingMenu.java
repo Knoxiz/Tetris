@@ -96,7 +96,7 @@ public class StartingMenu extends JPanel{
 		}
 	}
 	g.setColor(Color.red); //border
-	for(int i = 0; i < buttons.length; i++) {
+	for(int i = 0; i < 2; i++) {
 		g.drawRoundRect(buttons[i].x, buttons[i].y, buttons[i].width, buttons[i].height, 25, 25);		
 	}
 	g.drawImage(new ImageLoader(ImageLoader.tetrisPath).getImage(), WIDTH/2-80, 60, 160, 105, null);
