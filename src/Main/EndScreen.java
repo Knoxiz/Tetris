@@ -38,7 +38,7 @@ public class EndScreen {
 		g.setColor(Color.BLACK);
 		g.fillRect(0, 0, Controller.WIDTH, Controller.HEIGHT);
 		g.setColor(Color.WHITE);
-		g.drawString("You Lost..", Controller.WIDTH/2-g.getFontMetrics().stringWidth("You Lost..")/2, 175);
+		g.drawString(" Lost..", Controller.WIDTH/2-g.getFontMetrics().stringWidth("Game Over")/2, 175);
 		g.drawString("Score:  " + Controller.recentScore, Controller.WIDTH/2-g.getFontMetrics().stringWidth("Score:  " + Controller.recentScore)/2, 200);
 		if(menu.contains(mousePoint)) {
 			g.fillRoundRect(menu.x, menu.y, menu.width, menu.height, 25, 25);
