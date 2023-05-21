@@ -6,7 +6,6 @@ import Main.Controller;
 import Main.Game;
 import Main.HighScores;
 import Main.StartingMenu;
-import Main.Controller.STATE;
 import Main.EndScreen;
 
 public class MouseMotion implements MouseMotionListener{
