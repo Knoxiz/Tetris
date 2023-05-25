@@ -1,3 +1,10 @@
+/*
+ * NAME : GROUP 23
+ * Nguyễn Quang Tâm-ITITIU21304
+ * Trần Khánh Huy-ITITIU21185
+ * Ng Huỳnh Minh Thông-ITITIU21321
+ * PURPOSE OF PROGRAM: CREATE A TETRIS GAME
+ */
 package Main;
 import java.awt.Dimension;
 import java.awt.Font;
